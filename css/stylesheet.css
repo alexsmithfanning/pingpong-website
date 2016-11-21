@@ -20,8 +20,8 @@ body {
 }
 
 #header img {
-	width: 50em;
-	height: 10em;
+	width: 50%;
+	height: 50%;
 	margin-top: 10px;
 	box-shadow: 3px 3px 10px #000000;
 }
