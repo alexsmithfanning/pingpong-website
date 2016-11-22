@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
 	width: 100%;
 	min-height: 100%;
 	margin: 0;
@@ -12,6 +11,7 @@ body {
 	background: -o-linear-gradient(#0e599a, #0a375f);
 	background: -moz-linear-gradient(#0e599a, #0a375f);
 	background: linear-gradient(#0e599a, #0a375f);
+	font-family:Verdana, Geneva, sans-serif;
 }
 
 #header {
@@ -32,7 +32,6 @@ body {
 	margin: 2.5%;
 	padding: 0;
 	background-color: #dbe7e8;
-	font-family:Verdana, Geneva, sans-serif;
 	box-shadow: 3px 3px 10px #000000;
 }
 #nav ul {
