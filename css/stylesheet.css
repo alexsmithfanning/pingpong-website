@@ -87,7 +87,51 @@ body {
 	padding-bottom: 1em;
 	border-bottom: 1px solid #666666;
 }
-
+footer {
+	width: 100%;
+	height: 15em;
+	padding: 0;
+	margin: 0;
+	background-color: #dbe7e8;
+	clear: both;
+	border-top: 3px solid #666666;	
+}
+#footleft, #footcenter, #footright {
+	display: inline-block;	
+	width: 10em;
+	text-align: center;
+	font-size: 0.75em;
+}
+#footleft p, #footcenter p, #footright p {
+	height: 5em;	
+}
+footer #footleft {
+	margin-left: 15em;	
+	float: left;
+}
+footer #footcenter {
+	margin-left: 35em;
+	margin-right: 35em;
+}
+footer #footright {
+	float: right;
+	margin-right: 15em;	
+}
+footer #footbot {
+	clear: both;
+	width: 100%;
+	font-size: 0.8em;	
+}
+footer #footbot p {
+	color: rgba(66,66,66,0.80);	
+}
+footer div a {
+	opacity: 1;
+	transition: all .3s linear;
+}
+footer div a:hover {
+	opacity: 0.6;	
+}
 /* Browser specific rules */
 
 /* IE */
@@ -98,4 +142,8 @@ body {
 	#content {
 		width: 60%;	
 	}
+	footer #footcenter {
+		margin-left: 27.5em;
+		margin-right: 27.5em;
+	}	
 }
