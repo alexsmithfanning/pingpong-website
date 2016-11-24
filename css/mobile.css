@@ -64,3 +64,28 @@ body {
 #nav ul li a:active {
 	color: black;	
 }
+#content {
+	display: block;
+	width: 90%;
+	height: 30em;
+	padding: 0;
+	margin: 5%;
+	background-color: #dbe7e8;
+	box-shadow: 3px 3px 10px #000000;	
+}
+#rightbar {
+	display: block;
+	width: 90%;
+	height: 10em;
+	margin: 5%;
+	padding: 0;
+	background-color: #dbe7e8;
+	box-shadow: 3px 3px 10px #000000;	
+}
+#otherinfo {
+	width: 100%;
+	font-size: 0.9em;	
+	text-align: center;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #666666;
+}
