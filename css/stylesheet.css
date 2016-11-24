@@ -13,7 +13,6 @@ body {
 	background: linear-gradient(#0e599a, #0a375f);
 	font-family:Verdana, Geneva, sans-serif;
 }
-
 #header {
 	width: 100%;
 	height: 15em;
@@ -87,4 +86,16 @@ body {
 	text-align: center;
 	padding-bottom: 1em;
 	border-bottom: 1px solid #666666;
+}
+
+/* Browser specific rules */
+
+/* IE */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { 
+	body {
+		background: #0e599a;
+	}
+	#content {
+		width: 60%;	
+	}
 }
