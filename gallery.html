@@ -7,11 +7,16 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css" />
     <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 600px)" href="css/mobile.css" />
     <script type="text/javascript" src="javascript/gallery.js"></script>
+    <script type="text/javascript" src="javascript/navcollapse.js" ></script>
   </head>
 
   <body>
     <div id="header">
-      <center><img type="image/png" src="images/banner.png" align="middle" alt="GEHS Ping Pong Club" /></center>
+      <center><a href="index.html"><img type="image/png" src="images/banner.png" align="middle" alt="GEHS Ping Pong Club" /></a></center>
+    </div>
+    <div id="navcollapse">
+    	<a href="#" onclick="expandnav()" ><img src="images/navcollapse.png" width="50px" hieght="50px" alt="Expand Nav Bar" id="opennav"/></a>
+        <a href="#" onclick="collapsenav()"><img src="images/xout.png" width="50px" hieght="50px" alt="Collapse Nav Bar" id="closenav" /></a>
     </div>
     <div id="nav">
       <ul>
