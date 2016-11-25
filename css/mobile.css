@@ -73,6 +73,13 @@ body {
 	background-color: #dbe7e8;
 	box-shadow: 3px 3px 10px #000000;	
 }
+iframe {
+	display: inline-block;
+	width: 90%;
+	height: 600px;
+	margin: 2.5%;
+	box-shadow: 3px 3px 10px #000000;	
+}
 #rightbar {
 	display: block;
 	width: 90%;

@@ -71,11 +71,18 @@ body {
 	background-color: #dbe7e8;
 	box-shadow: 3px 3px 10px #000000;	
 }
+iframe {
+	display: inline-block;
+	width: 75%;
+	height: 600px;
+	margin: 2.5%;
+	box-shadow: 3px 3px 10px #000000;	
+}
 #rightbar {
 	display: inline-block;
 	float: left;
 	width: 10em;
-	height: 30em;
+	height: 35em;
 	margin: 2.5%;
 	padding: 0;
 	background-color: #dbe7e8;
