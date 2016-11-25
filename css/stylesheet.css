@@ -71,6 +71,28 @@ body {
 	background-color: #dbe7e8;
 	box-shadow: 3px 3px 10px #000000;	
 }
+#contentgallery {
+	display: inline-block;
+	width: 62.5em;
+	height: 100em;
+	float: left;
+	padding: 0;
+	margin: 2.5%;
+	background-color: #dbe7e8;
+	box-shadow: 3px 3px 10px #000000;	
+}
+#contentgallery button {
+	float: left;	
+}
+#imagewrap, #videowrap {
+	width: 52em;
+	height: 90em;
+	margin: 5em;
+}
+.wrap {
+	margin: 2.5%;
+	margin-bottom: 100px;
+}
 iframe {
 	display: inline-block;
 	width: 75%;
@@ -94,7 +116,14 @@ iframe {
 	padding-bottom: 1em;
 	border-bottom: 1px solid #666666;
 }
+.images, .videos {
+	width: 5em;
+	height: 2.5em;
+	border-right: 1px solid #666666;
+	padding: 1em;	
+}
 footer {
+	position: absolute;
 	width: 100%;
 	height: 15em;
 	padding: 0;
