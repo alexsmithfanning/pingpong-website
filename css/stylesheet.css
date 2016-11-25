@@ -92,6 +92,7 @@ footer {
 	height: 15em;
 	padding: 0;
 	margin: 0;
+	bottom: 0;
 	background-color: #dbe7e8;
 	clear: both;
 	border-top: 3px solid #666666;	
