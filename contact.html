@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css" />
     <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 600px)" href="css/mobile.css" />
     <script type="text/javascript" src="javascript/navcollapse.js" ></script>
+    <script type="text/javascript" src="javascript/validateform.js" ></script>
   </head>
 
   <body>
@@ -28,15 +29,15 @@
       </ul>
     </div>
     <div id="contactform">
-         <form>
+         <form name="contact" onsubmit="return validateForm()" >
              <fieldset id="contactinfo">
                  <legend>CONTACT INFORMATION</legend>
-                    <label>Name: <input type="text" id="name" name="name" placeholder="Name" /></label>
-                    <label>Email: <input type="text" id="email" name="email" placeholder="address@example.com" /></label>
+                    <label>Name: <input type="text" required="required" id="name" name="name" placeholder="Name" /></label>
+                    <label>Email: <input type="email" required="required" id="email" name="email" placeholder="address@example.com" /></label>
                 </fieldset> 
                 <fieldset id="subject">
                  <legend>WHY ARE YOU CONTACTING?</legend>
-                    <label>Subject: <input type="text" id="subject" name="subject" placeholder="I am in need of the ping pong" /></label>
+                    <label>Subject: <input type="text" required="required" id="subject" name="subject" placeholder="Short description of your issue..." /></label>
                     <label>
                      Explain your issue or question: <br />
                      <textarea id="question" rows="5" cols="65" maxlength="230"></textarea>

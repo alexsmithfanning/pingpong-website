@@ -74,6 +74,47 @@ body {
 	background-color: #dbe7e8;
 	box-shadow: 3px 3px 10px #000000;	
 }
+#contactform {
+	display: inline-block;
+	float: left;
+	margin: 2.5%;
+	padding: 0;
+	width: 50em;
+	height: 22.5em;
+	background-color: #dbe7e8;
+	box-shadow: 3px 3px 10px #000000;	
+}
+form {
+	height: 100%;	
+	padding: 1%;
+}
+fieldset {
+	border: none;	
+}
+legend {	
+	font-family: sans-serif;
+	font-weight: bold;
+}
+label {
+	display: block;	
+	padding: 1%;
+}
+input {
+	height: 1.5em;	
+}
+#subject input {
+	width: 30em;
+}
+textarea {
+	resize: none;	
+}
+#submit {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;	
+	width: 5em;
+	height: 2.5em;
+}
 #contentgallery {
 	display: inline-block;
 	width: 62.5em;
