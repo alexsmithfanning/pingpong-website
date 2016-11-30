@@ -3,20 +3,23 @@
 #navcollapse {
 	display: block;
 }
+
 #navcollapse #opennav {
 	width: 25px;
 	height: 25px;
 	margin-top: 2em;
-	margin-left: 1em;	
+	margin-left: 1em;
 }
+
 #navcollapse #closenav {
 	width: 25px;
 	height: 25px;
 	margin-top: 2em;
-	margin-right: 1em;	
+	margin-right: 1em;
 	float: right;
 	display: none;
 }
+
 #nav {
 	display: none;
 	position: relative;
@@ -29,6 +32,7 @@
 	font-size: 1em;
 	box-shadow: 3px 3px 10px #000000;
 }
+
 #nav ul {
 	position: relative;
 	margin: 0;
@@ -36,6 +40,7 @@
 	width: 98%;
 	text-align: center;
 }
+
 #nav ul li {
 	display: block;
 	list-style: none;
@@ -44,6 +49,7 @@
 	padding: 10px;
 	width: 100%;
 }
+
 #nav ul li a {
 	display: inline-block;
 	text-decoration: none;
@@ -51,10 +57,11 @@
 	font-size: 1em;
 	transition: all .2s linear;
 }
+
 #nav ul li a:hover {
 	color: #666666;
 }
-#nav ul li a:active {
-	color: black;	
-}
 
+#nav ul li a:active {
+	color: black;
+}
