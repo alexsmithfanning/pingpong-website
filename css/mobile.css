@@ -106,11 +106,16 @@ body {
 }
 
 #contentgallery {
-	height: 49em;
+	height: 75em;
 	width: 57.75em;
 	overflow: scroll;
 }
-
+#imagewrap, #videowrap {
+	width: 52em;
+	height: 90em;
+	padding-top: 5em;
+	margin: 5em;
+}
 #contactform {
 	height: 25em;
 	width: 27.5em;
