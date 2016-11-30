@@ -5,6 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
     <link rel="icon" type="image/png" href="images/pingpong.png" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1500px)" href="css/small-style.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1400px)" href="css/smallest-style.css" />
     <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 600px)" href="css/mobile.css" />
     <script type="text/javascript" src="javascript/navcollapse.js" ></script>
     <script type="text/javascript" src="javascript/validateform.js" ></script>
@@ -32,12 +34,12 @@
          <form name="contact" onsubmit="return validateForm()" >
              <fieldset id="contactinfo">
                  <legend>CONTACT INFORMATION</legend>
-                    <label>Name: <input type="text" required="required" id="name" name="name" placeholder="Name" /></label>
-                    <label>Email: <input type="email" required="required" id="email" name="email" placeholder="address@example.com" /></label>
+                    <label>Name: <input type="text" required id="name" name="name" placeholder="Name" /></label>
+                    <label>Email: <input type="email" required id="email" name="email" placeholder="address@example.com" /></label>
                 </fieldset> 
                 <fieldset id="subject">
                  <legend>WHY ARE YOU CONTACTING?</legend>
-                    <label>Subject: <input type="text" required="required" id="subject" name="subject" placeholder="Short description of your issue..." /></label>
+                    <label>Subject: <input type="text" required id="subject" name="subject" placeholder="Short description of your issue..." /></label>
                     <label>
                      Explain your issue or question: <br />
                      <textarea id="question" rows="5" cols="65" maxlength="230"></textarea>
@@ -48,22 +50,6 @@
                 </fieldset>
             </form>
      </div>
-    <footer>
-    	<div id="footleft">
-        	<p>Need to find a date or wondering when Ping Pong Club meets?</p>
-            <a href="calendar.html"><img src="images/placeholder.png" width="100px" height="100px" alt="Calendar and Dates" /></a>
-        </div>
-        <div id="footcenter">
-        	<p>Want to know if you can get involved?</p>
-            <a href="involvement.html"><img src="images/placeholder.png" width="100px" height="100px" alt="Find out who can be involved when and where" /></a>
-        </div>
-        <div id="footright">
-        	<p>Want to see some pictures and videos from the club?</p>
-            <a href="gallery.html"><img src="images/placeholder.png" width="100px" height="100px" alt="Contact page with sponsor information" /></a>
-        </div>
-        <div id="footbot">
-        	<center><p>Here's some placeholder text for the bottom part of the footer!</p></center>
-        </div>
-    </footer>
   </body>
 </html>
+
