@@ -10,5 +10,6 @@
 				$name = $_REQUEST["name"];
 				$from = $name." ".$email;
 				mail($to, $subject, $message, $from, $name);
+                                header("Location: ../contact.html");
 			}
     ?>
