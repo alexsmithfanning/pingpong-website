@@ -26,30 +26,43 @@
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="calendar.html">Calendar</a></li>
         <li><a href="history.html">History</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.php">Contact</a></li>
         <li><a href="involvement.html">Involvement</a></li>
       </ul>
     </div>
     <div id="contactform">
-         <form name="contact" onsubmit="return validateForm()" >
+         <form name="contact" onsubmit="return validateForm()" method="post">
              <fieldset id="contactinfo">
                  <legend>CONTACT INFORMATION</legend>
                     <label>Name: <input type="text" required id="name" name="name" placeholder="Name" /></label>
                     <label>Email: <input type="email" required id="email" name="email" placeholder="address@example.com" /></label>
-                </fieldset>
+                </fieldset> 
                 <fieldset id="subjectinfo">
                  <legend>WHY ARE YOU CONTACTING?</legend>
                     <label>Subject: <input type="text" required id="subject" name="subject" placeholder="Short description of your issue..." /></label>
                     <label>
                      Explain your issue or question: <br />
-                     <textarea id="question" rows="5" cols="65" maxlength="230"></textarea>
+                     <textarea id="question" rows="5" cols="65" maxlength="230" name="message" ></textarea>
                     </label>
                 </fieldset>
                 <fieldset id="submitbutton">
-                 <input type="submit" id="submit" value="Submit" />
+                 <input type="submit" id="submit" name="submit" value="Submit" />
                 </fieldset>
             </form>
+      <?php
+		
+		
+			if(isset($_REQUEST["submit"]))
+			{
+				$to = "henleyat@usd231.com";
+				$subject = $_REQUEST["subject"];
+				$message = $_REQUEST["message"];
+				$email = $_REQUEST["email"];
+				$name = $_REQUEST["name"];
+				$from = $name." ".$email;
+				mail($to, $subject, $message, $from, $name);
+			}
+    ?>
      </div>
   </body>
 </html>
-
