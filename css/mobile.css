@@ -187,3 +187,6 @@ iframe {
 	padding-bottom: 1em;
 	border-bottom: 1px solid #666666;
 }
+input {
+	border-readius: none;	
+}
