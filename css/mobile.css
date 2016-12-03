@@ -107,19 +107,29 @@ body {
 
 #contentgallery {
 	height: 80em;
-	width: 57.75em;
+	max-width: 57.75em;
 	overflow: scroll;
 }
+#contentgallery input {
+	width: 50%;	
+}
 #imagewrap, #videowrap {
-	width: 52em;
+	max-width: 52em;
 	height: 90em;
 	padding-top: 5em;
 	margin: 5em;
+}
+#videowrap {
+	height: 25em;	
+}
+.wrap p {
+	font-size: 2em;	
 }
 #contactform {
 	height: 25em;
 	width: 27.5em;
 	font-size: 2em;
+	margin: 5%;
 }
 
 input {

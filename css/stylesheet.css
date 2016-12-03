@@ -87,8 +87,9 @@ body {
 
 #contactform {
 	display: inline-block;
-	float: left;
 	margin: 2.5%;
+	margin-left: 10%;
+	margin-right: 10%;
 	padding: 0;
 	width: 50em;
 	height: 22.5em;
@@ -147,8 +148,10 @@ textarea {
 	box-shadow: 3px 3px 10px #000000;
 }
 
-#contentgallery button {
+#contentgallery input {
 	float: left;
+	width: 20%;
+	font-size: 2.5em;
 }
 
 #imagewrap,
@@ -157,6 +160,9 @@ textarea {
 	height: 90em;
 	margin: 5em;
 }
+#videowrap {
+	height: 25em;	
+}
 
 .wrap {
 	margin: 2.5%;
@@ -164,7 +170,6 @@ textarea {
 }
 .wrap img {
 	max-width: 600px;
-	image-orientation: from-image;	
 }
 
 iframe {
