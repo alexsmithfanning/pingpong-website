@@ -44,8 +44,8 @@ body {
 	width: 60px;
 	height: 60px;
 	margin-top: 2em;
-	margin-right: 1em;
-	float: right;
+	margin-left: 1em;
+	float: left;
 	display: none;
 }
 
