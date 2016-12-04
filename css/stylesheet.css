@@ -32,21 +32,20 @@ body {
 }
 
 #nav {
-	width: 10em;
-	height: 15em;
+	width: 11%;
+	height: 14.7em;
 	display: inline-block;
 	float: left;
 	margin: 2.5%;
 	padding: 0;
 	background-color: #dbe7e8;
-	box-shadow: 3px 3px 10px #000000;
+	box-shadow: 2px 2px 4px black;
 }
 
 #nav ul {
-	position: relative;
 	margin: 0;
 	padding: 0;
-	width: 8.7em;
+	width: 89%;
 	text-align: center;
 }
 
@@ -54,7 +53,7 @@ body {
 	display: block;
 	list-style: none;
 	text-align: center;
-	padding: 10px;
+	padding: 0.6em;
 	width: 100%;
 	border-bottom: 1px solid #666666;
 }
