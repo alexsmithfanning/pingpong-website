@@ -1,5 +1,9 @@
 /* CSS For Smaller Screens */
 
+.content {
+	width: 75%;	
+	margin: 3%;
+}
 #rightbar {
 	display: block;
 	width: 90%;

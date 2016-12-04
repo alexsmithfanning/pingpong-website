@@ -74,9 +74,9 @@ body {
 	color: black;
 }
 
-#content {
+.content {
 	display: inline-block;
-	width: 62.5em;
+	width: 65%;
 	height: 30em;
 	float: left;
 	padding: 0;
@@ -84,7 +84,22 @@ body {
 	background-color: #dbe7e8;
 	box-shadow: 3px 3px 10px #000000;
 }
-
+.contenthome {
+	display: inline-block;
+	width: 62.5%;
+	height: 30em;
+	float: left;
+	padding: 0;
+	margin: 2.5%;
+	background-color: #dbe7e8;
+	box-shadow: 3px 3px 10px #000000;
+}
+.content a {
+	color: black;	
+}
+.content p {
+	margin: 5%;	
+}
 #contactform {
 	display: inline-block;
 	margin: 2.5%;

@@ -65,3 +65,11 @@
 #nav ul li a:active {
 	color: black;
 }
+.content {
+	width: 90%;
+	margin: 5%;
+}
+.contenthome {
+	width: 90%;
+	margin: 5%;	
+}
