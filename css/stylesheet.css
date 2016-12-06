@@ -148,6 +148,7 @@ label {
 input {
 	height: 1.5em;
 	-webkit-border-radius:0px;
+	-webkit-appearance:none;
 }
 
 #subject {
