@@ -7,7 +7,7 @@
 #rightbar {
 	display: block;
 	width: 90%;
-	height: 10em;
+	height: 12.5em;
 	margin: 5%;
 	padding: 0;
 	background-color: #dbe7e8;
@@ -20,4 +20,19 @@
 	text-align: center;
 	padding-bottom: 1em;
 	border-bottom: 1px solid #666666;
+}
+.otherimg {
+	display: inline-block;
+	margin: 0;
+	margin-top: 1.5%;
+}
+.otherp {
+	text-align: left;	
+	margin: 0;
+}
+#other1, #other2, #other3 {
+	display: inline-block;
+	position: abolsute;	
+	margin-left: 12.5%;
+	text-align: center;
 }

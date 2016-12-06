@@ -112,7 +112,16 @@ body {
 	overflow: scroll;
 }
 #contentgallery input {
+	float: left;
 	width: 50%;	
+}
+#imgbutton {
+	margin-left: 0;
+	margin-top: 0;	
+}
+#vidbutton {
+	margin-right: 0;
+	margin-top: 0;	
 }
 #imagewrap, #videowrap {
 	max-width: 52em;
@@ -184,7 +193,7 @@ iframe {
 #rightbar {
 	display: block;
 	width: 90%;
-	height: 20em;
+	height: 25em;
 	margin: 5%;
 	padding: 0;
 	background-color: #dbe7e8;
@@ -200,4 +209,9 @@ iframe {
 }
 input {
 	border-readius: none;	
+}
+#other1, #other2, #other3 {
+	margin-left: 10%;	
+	font-size: 2em;
+	width: 5em;
 }
