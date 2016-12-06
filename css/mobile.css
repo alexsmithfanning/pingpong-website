@@ -36,14 +36,14 @@ body {
 #navcollapse #opennav {
 	width: 60px;
 	height: 60px;
-	margin-top: 2em;
+	margin-top: 3em;
 	margin-left: 1em;
 }
 
 #navcollapse #closenav {
 	width: 60px;
 	height: 60px;
-	margin-top: 2em;
+	margin-top: 3em;
 	margin-left: 1em;
 	float: left;
 	display: none;
