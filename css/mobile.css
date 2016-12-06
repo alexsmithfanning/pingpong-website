@@ -113,15 +113,15 @@ body {
 }
 #contentgallery input {
 	float: left;
-	width: 50%;	
+	width: 50%;
 }
 #imgbutton {
 	margin-left: 0;
-	margin-top: 0;	
+	margin-top: 0;
 }
 #vidbutton {
 	margin-right: 0;
-	margin-top: 0;	
+	margin-top: 0;
 }
 #imagewrap, #videowrap {
 	max-width: 52em;
@@ -130,10 +130,10 @@ body {
 	margin: 5em;
 }
 #videowrap {
-	height: 25em;	
+	height: 25em;
 }
 .wrap p {
-	font-size: 2em;	
+	font-size: 2em;
 }
 #contactform {
 	height: 25em;
@@ -208,10 +208,10 @@ iframe {
 	border-bottom: 1px solid #666666;
 }
 input {
-	border-readius: none;	
+	border-radius: none;
 }
 #other1, #other2, #other3 {
-	margin-left: 10%;	
+	margin-left: 10%;
 	font-size: 2em;
 	width: 5em;
 }
