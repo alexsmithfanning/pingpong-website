@@ -147,7 +147,9 @@ input {
 	height: 3em;
 	font-size: 0.5em;
 }
-
+#subject {
+	width: 30em;	
+}
 #submit {
 	font-size: 2em;
 	width: 8em;
@@ -163,11 +165,11 @@ textarea {
 }
 
 input::-webkit-input-placeholder {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 input:-moz-placeholder {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .tabs {
