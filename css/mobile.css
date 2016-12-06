@@ -137,7 +137,7 @@ body {
 }
 #contactform {
 	height: 25em;
-	width: 27.5em;
+	width: 40em; //27.5em
 	font-size: 2em;
 	margin: 5%;
 }
