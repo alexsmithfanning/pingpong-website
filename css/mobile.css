@@ -150,8 +150,11 @@ input {
 
 #submit {
 	font-size: 2em;
-	width: 4em;
+	width: 5em;
 	height: 2em;
+	-webkit-border-radius:0px;
+	-webkit-appearance:none;
+	-webkit-margin-left: 0px;
 }
 
 textarea {
