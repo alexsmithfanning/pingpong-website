@@ -163,17 +163,15 @@ textarea {
 	width: 50em;
 	height: 14em;
 }
-
+input::-webkit-input {
+	height: 4em;	
+}
 input::-webkit-input-placeholder {
 	font-size: 1.5em;
-	margin: 0;
-	padding: 0;
 }
 
 input:-moz-placeholder {
 	font-size: 1.5em;
-	margin: 0;
-	padding: 0;
 }
 
 .tabs {
