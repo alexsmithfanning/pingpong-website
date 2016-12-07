@@ -86,7 +86,7 @@ body {
 .contenthome {
 	display: inline-block;
 	width: 62.5%;
-	height: 30em;
+	height: 35m;
 	float: left;
 	padding: 0;
 	margin: 2.5%;
@@ -118,7 +118,11 @@ body {
 	color: black;	
 }
 .contenthome p {
-	margin: 5%;	
+	display: block;
+	margin: 5%;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 70%;
 }
 #contactform {
 	display: inline-block;
@@ -221,13 +225,22 @@ textarea {
 }
 
 iframe {
+	position: relative;
 	display: inline-block;
 	width: 75%;
 	height: 600px;
 	margin: 2.5%;
 	box-shadow: 3px 3px 10px #000000;
+	z-index: 2;
 }
-
+#uhoh {
+	position: absolute;
+	width: 35%;	
+	top: 35em;
+	left: 40em;
+	z-index: 1;
+	color: #dbe7e8;
+}
 #rightbar {
 	display: inline-block;
 	float: left;
