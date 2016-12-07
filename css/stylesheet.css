@@ -114,6 +114,12 @@ body {
 .content p {
 	margin: 5%;	
 }
+.contenthome a {
+	color: black;	
+}
+.contenthome p {
+	margin: 5%;	
+}
 #contactform {
 	display: inline-block;
 	margin: 2.5%;
