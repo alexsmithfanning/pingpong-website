@@ -199,9 +199,12 @@ iframe {
 }
 #uhoh {
 	left: 3.5em;
-	top: 12.5em;
+	top: 25%;
 	font-size: 2.5em;
 	width: 70%;	
+}
+#remind, #remindcont {
+	font-size: 2.5em;	
 }
 #rightbar {
 	display: block;

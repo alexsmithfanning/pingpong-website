@@ -126,8 +126,8 @@ body {
 }
 #contactform {
 	display: inline-block;
-	margin: 2.5%;
-	margin-left: 10%;
+	margin: 2%;
+	margin-left: 9%;
 	margin-right: 10%;
 	padding: 0;
 	width: 50em;
@@ -245,7 +245,12 @@ iframe {
 	display: block;
 	color: #dbe7e8;
 }
-#remind span {
+#remindcont {
+	display: block;
+	color: #dbe7e8;
+	margin-left: 25%;
+}
+#remind span, #remindcont span {
 	font-weight: bold;
 	font-size: 1.1em;
 }
